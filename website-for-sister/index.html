@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+		<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css?v=2.2">
+		<link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+        <link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
+        <title>Photology</title> 
+    </head>
+    <body>
+        <header class="main-header">
+            <nav>
+                <div class="row"> 
+                    <h1 class="logo">Photology</h1>
+                    <ul class="main-nav">
+						<li><a href="index.html">About Us</a></li>
+                        <li><a href="gallery.html">gallery</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+        </header>
+        <section class="section-features">
+            <div class="row photo-profil">
+                <div class="col span-1-of-2 box">
+                    <figure class="author-photo">
+                        <img src="resources/img/jagoda_profil.jpg" class="js--wp-1">
+                    </figure> 
+                </div>
+                <div class="col span-1-of-2 box">
+                    <figure class="author-photo">
+                        <img src="resources/img/karolina_profil%20.jpg" class="js--wp-2">
+                    </figure>
+                </div>
+            </div>
+        </section>	
+		
+		<section class="section-contact" id="contact">
+            <div class="row">
+				
+                <h2>We're happy to hear from you</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us">
+                                <option value="friends" selected>Friends</option>
+                                <option value="search">Search engine</option>
+                                <option value="ad">Advertisement</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Text</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send it!">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+		
+		 <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">iOS App</a></li>
+                        <li><a href="#">Android App</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2017 Photology.
+                </p>
+            </div>
+        </footer>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+    	<script src="vendors/js/jquery.waypoints.min.js"></script>
+    	<script src="resources/js/script.js?v=2.1"></script>
+		
+		<script>
+			$(document).on('click', 'a', function(event){
+				event.preventDefault();
+				$('body').animate({
+					scrollTop: $($.attr(this, 'href')).offset().top
+				}, 800);
+			});
+		</script>
+	
+    </body>
+
+</html>
+

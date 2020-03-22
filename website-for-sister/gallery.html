@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+		<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/style.css?v=1.1">
+        <link rel="stylesheet" type="text/css" href="resources/css/galleryStyle.css?v=1.1">
+		<link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+		<link rel="stylesheet" type="text/css" href="vendors/css/jquery.mThumbnailScroller.css">
+        <link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
+        <title>Photology-Gallery</title> 
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="row"> 
+                    <ul class="main-nav">
+						<li><a href="index.html" >About Us</a></li>
+                        <li><a href="gallery.html">gallery</a></li>
+                        <li><a href="index.html#contact">contact</a></li>
+                    </ul>
+                </div>
+            </nav> 
+        </header>
+        <section class="section-gallery">
+			<div class="row">
+				<div class="col span-1-of-4">
+					<a href="#" onclick="changeGallery(7, 'author')">author</a>
+					<br/>
+					<a href="#" onclick="changeGallery(17, 'scenery')">scenery</a>
+				</div>
+				<div class="col span-3-of-4 photo" id="show-photo">
+					<img src="resources/photos/author/author_2.jpg" id="photo">
+				</div>
+			</div>
+        </section>	
+		
+		<section class="section-thumbs">
+			<div class="row">
+            	<div id="my-thumbs-list">
+					<ul class="list-1">
+					
+					</ul>
+				</div>
+			</div>
+        </section>	
+		
+		<footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">iOS App</a></li>
+                        <li><a href="#">Android App</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2017 Photology.
+                </p>
+            </div>
+        </footer>
+
+		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+		
+		
+    	<script src="vendors/js/jquery.waypoints.min.js"></script>
+		<script src="vendors/js/jquery.mThumbnailScroller.js"></script>
+    	<script src="resources/js/galleryScript.js"></script>
+		
+		<script>
+    		(function($){
+				$(window).load(function(){
+					$("#my-thumbs-list").mThumbnailScroller({
+						axis:"x" 
+					});
+        		});
+			})(jQuery);
+		</script>
+		
+    </body>
+
+</html>
+

@@ -1,0 +1,104 @@
+
+/* ------------------------------------------------ */
+/* HEADER */
+/* ------------------------------------------------ */
+.logo {color: #000;}
+
+header {background-color: #4a4a4a;}
+
+
+.main-nav {
+    margin:  25px 0px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #888;  
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    font-size: 100%; 
+	font-weight:bold;
+}
+
+
+/* ------------------------------------------------ */
+/* HEADER */
+/* ------------------------------------------------ */
+
+.photo{
+	float: right;
+	display: block;
+	width: 800px;
+	height: auto;
+	position: relative;
+	margin-top: 20px;
+}
+
+/* ----------------------------------------------- */
+/* GALLERY */
+/* ----------------------------------------------- */
+.section-gallery {
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+.section-gallery a {
+	color:#1155CC;
+}
+
+.section-gallery a {
+	font-family: sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 8px 13px 7px;
+    color: #555;
+    text-decoration:none;
+    transition: color 0.7s;
+}
+
+
+/* ------------------------------------------------ */
+/* toolbar */
+/* ------------------------------------------------ */
+.section-thumbs{
+	padding-top: 40px;
+}
+
+.content{
+	overflow: auto;
+	position: relative;
+	padding: 10px;
+	background: #333;
+	margin: 10px auto;
+	width: 85%;
+	height: auto;
+}
+
+.content li{ margin: 0 4px; }
+
+.content li a{
+	display: block;
+	border: 7px solid rgba(255,255,255,.1);
+}
+
+#my-thumbs-list{
+  	overflow: auto;
+  	width: 750px;
+	height: auto;
+	float: right;
+}
+
+.btn{
+	color: #fff;
+	font-size: 0px;
+	border: 0;
+}
+
+
+/* ------------------------------------------------ */
+/* footer */
+/* ------------------------------------------------ */
+
+footer {background-color: #4a4a4a;}
