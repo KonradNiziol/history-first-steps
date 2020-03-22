@@ -21,3 +21,9 @@ Zagadnienia, które zostały użyte do wykonania zadania:
 To learn the basics HTML/CSS3/JS, I create a website for my sister. She is passionate about photography.
 
 ![main view](website-for-sister/main_site.PNG)
+
+## dice-game
+Dice game created for practice DOM manipulation.  (JavaScript)
+
+![dice game view](dice-game/dice.PNG)
+
