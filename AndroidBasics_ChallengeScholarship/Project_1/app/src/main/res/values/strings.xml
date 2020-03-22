@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project_1</string>
+    <string name="_650_555_5555"><a href="tel:6505555555">650-555-5555</a></string>
+    <string name="www_udacity_com">www.udacity.com</string>
+    <string name="mountain_view_ca_94043">Mountain View, CA 94043</string>
+    <string name="_2465_latham_st">2465 Latham St</string>
+    <string name="udacity">Udacity</string>
+</resources>
