@@ -5,4 +5,7 @@ Visit the website at:
 http://www.photology.com.pl/
 
 ![main view](main_site.PNG)
+.
+.
+.
 ![form](form.PNG)
