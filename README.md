@@ -16,3 +16,8 @@ Zagadnienia, które zostały użyte do wykonania zadania:
 ## Google Developer Challenge Scholarship / Android Basics
 "We are excited to offer you a Google Developer Challenge Scholarship to the Android Basics track."
  ![certificate](android_certificate.PNG)
+ 
+## website-for-sister
+To learn the basics HTML/CSS3/JS, I create a website for my sister. She is passionate about photography.
+
+![main view](website-for-sister/main_site.PNG)
