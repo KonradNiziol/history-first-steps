@@ -12,3 +12,7 @@ Zagadnienia, które zostały użyte do wykonania zadania:
 * Collectiond
 * Map
 * stream Java 8.
+
+## Google Developer Challenge Scholarship / Android Basics
+"We are excited to offer you a Google Developer Challenge Scholarship to the Android Basics track."
+ 
